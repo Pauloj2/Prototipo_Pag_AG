@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroGestor - Gestão eficiente para sua fazenda</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="imagens/logoAgroG.png" alt="Logo AgroGestor"></a>
+                <h1>AgroGestor</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="login/index.html" class="btn-entrar">Entrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero com chamada para ação -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Feito para quem faz a agricultura acontecer todos os dias.</h2>
+                <p>Transforme a criação de gado com tecnologia, eficiência, controle e resultados.</p>
+                <a href="login/index.html" class="btn-destaque">Comece Agora</a>
+            </div>
+            <div class="hero-image">
+                <!-- Imagem ilustrativa do app ou dashboard -->
+                <img src="imagens/gado.jpg" alt="Dashboard AgroGestor">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o AgroGestor</h2>
+            </div>
+            <div class="sobre-content-grid">
+                <div class="sobre-imagem">
+                    <img src="imagens/FamiliaNoCampo.jpg" alt="Família no campo com gado">
+                </div>
+                <div class="sobre-texto">
+                    <p>
+                        O AgroGestor é uma solução tecnológica inovadora voltada para pecuaristas e agricultores familiares que buscam otimizar a gestão de suas propriedades de forma simples, acessível e eficiente. Desenvolvido com foco na realidade do campo, o sistema permite o acompanhamento completo do rebanho, desde o registro individual de animais até o controle sanitário, reprodutivo, produtivo e financeiro da fazenda.
+                    </p>
+                    <p>
+                        Pensado especialmente para atender às necessidades da agricultura familiar, o AgroGestor ajuda pequenos produtores a superarem os desafios da gestão manual, oferecendo ferramentas digitais que tornam o dia a dia mais organizado, produtivo e sustentável. A plataforma contribui diretamente para o aumento da produtividade e da renda dos produtores, promovendo o uso consciente dos recursos e incentivando boas práticas agropecuárias.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Seção Funcionalidades -->
+    <section id="funcionalidades" class="funcionalidades">
+        <div class="container">
+            <div class="section-header">
+                <h2>Funcionalidades</h2>
+            </div>
+            <div class="cards-container">
+                <!-- Card Controle de Gado -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="imagens/vaca (1).png" alt="vaca">
+                    </div>
+                    <h3>Controle de Gado</h3>
+                    <p>O AgroGestor permite o registro completo dos animais, incluindo identificação, raça, data de nascimento e peso. Oferece controle de vacinas, monitoramento da saúde com registro de doenças, tratamentos e consultas veterinárias. Possibilita o acompanhamento dos ciclos reprodutivos, inseminações e partos. Mantém um histórico detalhado sobre crescimento, saúde e reprodução.</p>
+                </div>
+
+                <!-- Card Controle Financeiro -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="imagens/grafico-preditivo.png" alt="grafico">
+                    </div>
+                    <h3>Controle Financeiro</h3>
+                    <p>O AgroGestor oferece controle financeiro para gerenciar as compras, vendas e custos relacionados ao rebanho. Permite o registro de transações de compra e venda de animais, controle de despesas com alimentação, medicamentos e serviços veterinários, além de gerar relatórios financeiros para acompanhar lucros e prejuízos.</p>
+                </div>
+
+                <!-- Card Registro de Produção de Leite -->
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="imagens/registrado.png" alt="">
+                    </div>
+                    <h3>Registro da produção de leite</h3>
+                    <p>A funcionalidade de registro da produção de leite no AgroGestor permite o acompanhamento diário da quantidade produzida por cada animal. É possível registrar a produção por data, monitorando a produtividade e identificando variações ao longo do tempo. Esses dados ajudam a otimizar a gestão da produção e melhorar os resultados da fazenda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Caso tenha dúvidas ou precise de mais informações, entre em contato conosco.</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <p><img src="imagens/icons-mensagem.png" alt="email"></i> paulo.jr@estudante.iftm.edu.br</p>
+                    <p><img src="imagens/icon-github-60.png" alt="github"><a href="https://github.com/Pauloj2" target="_blank">https://github.com/Pauloj2</a></p>
+                </div>
+                <div class="contato-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Paulo Junior Rodrigues - AgroGestor. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#inicio">Início</a>
+                    <a href="#funcionalidades">Funcionalidades</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

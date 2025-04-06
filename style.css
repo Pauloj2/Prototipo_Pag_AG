@@ -174,12 +174,11 @@ nav ul li a:hover:after {
 }
 
 
-
-
 .hero {
     padding: 130px 0px 50px;
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     color: var(--color-white);
+    overflow: hidden;
 }
 
 .hero .container {
@@ -210,7 +209,9 @@ nav ul li a:hover:after {
 }
 
 .hero-image img {
-    max-width: 130%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
     border-radius: 10px;
     box-shadow: var(--shadow);
 }
@@ -409,7 +410,7 @@ footer {
 }
 
 
-@media (max-width: 890px) {
+@media (max-width: 850px) {
     .menu-toggle {
         display: flex; /* Mostra o botão do menu hamburguer */
     }
@@ -444,5 +445,27 @@ footer {
         align-items: center;
         width: 100%;
     }
-    
+
+    .hero .container {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content {
+        padding-right: 0;
+        text-align: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .hero-image img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .hero-image img {
+        max-height: 300px;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
 }
